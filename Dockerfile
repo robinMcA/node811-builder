@@ -17,6 +17,7 @@ ENV ARTIFACT_DIR /home/builder/artifacts
 ENV TEST_RESULT_DIR /home/builder/tests
 
 ADD scripts /home/builder/scripts/node811
+RUN chmod g+rx /home/builder/scripts/*
 
 WORKDIR /home/builder
 USER builder
