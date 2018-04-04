@@ -16,7 +16,7 @@ ENV SOURCE_DIR /home/builder/src
 ENV ARTIFACT_DIR /home/builder/artifacts
 ENV TEST_RESULT_DIR /home/builder/tests
 
-ADD scripts /home/builder/scripts/node811-builder
+ADD scripts /home/builder/scripts/node811
 
 WORKDIR /home/builder
 USER builder
