@@ -1,7 +1,7 @@
 #
 # NodeJS 8.11 Build Image
 # Docker image with libraries and tools as required for building NodeJS 8.11 projects using Yarn 
-#
+# rnlm test
 
 FROM node:8.11.1-alpine
 MAINTAINER Agile Digital <info@agiledigital.com.au>
